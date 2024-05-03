@@ -38,7 +38,7 @@ body {
         input[type="submit"]:hover {
             background-color: #0056b3;
         }
-        div.box {
+        div.sub {
             width: 4em;
             height: 2em;
             background-color: #000000;
@@ -46,7 +46,7 @@ body {
             padding-top: 1em;
             padding-left: 1em;
           }
-          div.box.tap {
+          div.sub.tap {
             background-color: #c3eb0f;
             color: red;
         }
