@@ -32,15 +32,12 @@
         <a href="#contact" data-role="button" data-icon="phone" data-transition="slide">Contact</a>
     </div>
 
-
     <!-- Footer -->
  <div data-role="footer" data-position="fixed">
-     <h4>&copy; SAE-Kondhwa</h4>
-    
-</div>
+    <h4>&copy; SAE-Kondhwa</h4>
+    </div>
 </div>
  
-
 
 <!-- About page-->
 <div data-role="page" id="about">
@@ -48,7 +45,7 @@
         <h1>About Us</h1>
     </div>
     <div data-role="content">
-        <p>We are a prestigious college offering various courses.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates placeat obcaecati, velit aspernatur error aperiam neque debitis, officia molestias ex accusamus alias incidunt tempore.</p>
         <a href="#home" data-role="button" data-icon="arrow-l" data-transition="slide">Back to Home</a>
     </div>
 </div>
@@ -59,33 +56,38 @@
         <h1>Courses </h1>
     </div>
     <div data-role="content">
-        <p>List Of Courses In Our College</p>
+        <h4>List Of Courses In Our College</h4>
         <a href="#it" data-role="button"  data-transition="pop">Information Technology</a>
         <a href="#cs" data-role="button"  data-icon="" data-transition="pop">Computer Science</a>
         <a href="#entc" data-role="button"  data-transition="pop">Electronics and Tele-Communication</a>
         <a href="#home" data-role="button" data-icon="home " data-transition="slide">Back To Home</a>
     </div>
 </div>
-
-
 <!-- IT page -->
 <div data-role="page" id="it">
     <div data-role="header">
         <h1>Information Technology</h1>
     </div>
+        <div data-role="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime, vel quae voluptas voluptatum error facilis dicta consequuntur tempora doloribus maiores quaerat deleniti earum praesentium sint veniam nam rerum libero! Ratione ipsam, quaerat voluptatibus sint veritatis eius maiores, quos quasi soluta, possimus expedita repudiandae et iure. Consequuntur animi nam eaque omnis? Quod vitae sed ullam molestiae quis, rem iste temporibus pariatur beatae praesentium unde nam hic sapiente asperiores saepe aut eveniet mollitia blanditiis! Soluta culpa ex quas debitis dolores omnis placeat fuga asperiores, cupiditate voluptatem eligendi, tempore ducimus? Maxime incidunt at laboriosam laborum eaque optio culpa maiores. Nemo, placeat eos?</p>
+        </div>
 </div>
-
-
 <!-- CS Page -->
 <div data-role="page" id="cs">
     <div data-role="header">
         <h1>Computer Science</h1>
+    </div>
+    <div data-role="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime, vel quae voluptas voluptatum error facilis dicta consequuntur tempora doloribus maiores quaerat deleniti earum praesentium sint veniam nam rerum libero! Ratione ipsam, quaerat voluptatibus sint veritatis eius maiores, quos quasi soluta, possimus expedita repudiandae et iure. Consequuntur animi nam eaque omnis? Quod vitae sed ullam molestiae quis, rem iste temporibus pariatur beatae praesentium unde nam hic sapiente asperiores saepe aut eveniet mollitia blanditiis! Soluta culpa ex quas debitis dolores omnis placeat fuga asperiores, cupiditate voluptatem eligendi, tempore ducimus? Maxime incidunt at laboriosam laborum eaque optio culpa maiores. Nemo, placeat eos?</p>
     </div>
 </div>
 <!-- ENTC Page -->
 <div data-role="page" id="entc">
     <div data-role="header">
         <h1>Electronics and Tele-Communication</h1>
+    </div>
+    <div data-role="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime, vel quae voluptas voluptatum error facilis dicta consequuntur tempora doloribus maiores quaerat deleniti earum praesentium sint veniam nam rerum libero! Ratione ipsam, quaerat voluptatibus sint veritatis eius maiores, quos quasi soluta, possimus expedita repudiandae et iure. Consequuntur animi nam eaque omnis? Quod vitae sed ullam molestiae quis, rem iste temporibus pariatur beatae praesentium unde nam hic sapiente asperiores saepe aut eveniet mollitia blanditiis! Soluta culpa ex quas debitis dolores omnis placeat fuga asperiores, cupiditate voluptatem eligendi, tempore ducimus? Maxime incidunt at laboriosam laborum eaque optio culpa maiores. Nemo, placeat eos?</p>
     </div>
 </div>
 <!-- Admission Page -->
@@ -94,8 +96,11 @@
         <h1>Admission</h1>
     </div>
     <div data-role="content">
-        <h4>Admissions Open!!!</h4>
-        
+        <h4>Admissions Open for 2024 batch!!!</h4>
+       <a href="#it"   data-transition="pop">Information Technology</a><br>
+       <a href="#cs"  data-transition="pop">Computer Science</a><br>
+        <a href="#entc"   data-transition="pop">Electronics and Tele-Communication</a><br>
+
         </div>
         <a href="#home" data-role="button" data-icon="arrow-l" data-transition="slide">Back to Home</a>
     </div>
@@ -107,7 +112,7 @@
         <h1>Contact Us</h1>
     </div>
     <div data-role="content">
-        <p>Reach out to us for any queries or feedback.</p>
+        <h4>For any Feedback</h4>
         <form action="#" >
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -117,16 +122,14 @@
     
             <label for="message">Message:</label>
             <input type="email" id="email" name="email" required>
-            <div class="box" >Submit</div>
+            <div class="sub" >Submit</div>
         </div>
         </form>
         <a href="#home" data-role="button" data-icon="arrow-l" data-transition="slide">Back to Home</a>
     </div>
-    
-
 <script>
     $(function(){
-  $( "div.box" ).bind( "tap", tapHandler );
+  $( "div.sub" ).bind( "tap", tapHandler );
  
   function tapHandler( event ){
     $( event.target ).addClass( "tap" );
